@@ -1,0 +1,235 @@
+
+
+.oswald-uniquifier {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bdy{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-items:hover{
+    font-weight: bold;
+    padding: 2px;
+    color: crimson;
+    background-color: aquamarine;
+    text-decoration: underline;
+
+}
+
+
+.first-h1{
+    font-family: "Oswald";
+}
+
+.card-1:hover{
+    background-image: url('./images/sofa.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.lekha:hover{
+    color: rgb(238, 236, 236);
+}
+
+.card-2:hover{
+    background-image: url('./images/chair.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.card-3:hover{
+    background-image: url('./images/table.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* slider css */
+
+.card-list .card-item{
+    list-style: none;
+  }
+  
+  
+  
+  
+  .card-wrapper{
+    max-width:1100px;
+    /* margin:0 60px 35px; */
+    margin: 0 auto;
+    padding:20px 10px;
+    overflow: hidden;
+   
+  }
+  
+    .card-list .card-item .card-link{
+      user-select:none;
+      display: block;
+      background: #fff;
+      padding:18px;
+      border-radius: 12px;
+      text-decoration: none;
+      border: 2px solid transparent;
+      box-shadow:0 10px 10px rgba(0,0,0,0.05) ;
+      transition:0.2s ease ;
+    }
+  
+  
+    .card-list .card-item .card-link:active{
+      cursor:grabbing;
+    }
+  
+  
+  
+  
+    .card-list .card-item .card-link:hover{
+      border-color: #5372F0;
+    }
+  
+    .card-list .card-link .card-image{
+      width:100%;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  
+    .card-list .card-link .badge{
+      color:#5372F0;
+      padding:8px 16px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      margin:16px 0 18px;
+      background: #DDE4FF;
+      width: fit-content;
+      border-radius: 50px;
+  
+    }
+  
+    .card-list .card-link .badge.designer{
+      color:#B22485 ;
+      background:#F7DFF5 ;
+    }
+  
+    .card-list .card-link .badge.marketer{
+      color:#B25A2B ;
+      background:#FFE3D2 ;
+    }
+  
+    .card-list .card-link .badge.gamer{
+      color:#205C20 ;
+      background:#D6F8D6 ;
+    }
+  
+    .card-list .card-link .badge.editor{
+      color:#856404 ;
+      background:#fff3cd ;
+    }
+  
+  
+    .card-list .card-link .card-titel{
+      font-size:1.19rem ;
+      color:#000;
+      font-weight: 600;
+     
+    }
+  
+    .card-list .card-link .card-button{
+      height:35px;
+      width:35px;
+      color:#5372F0;
+      border-radius:50%;
+      margin:30px 0 5px;
+      background:none;
+      cursor:pointer;
+      border:2px solid #5372F0;
+      transform: rotate(-45deg);
+      transition:0.4 ease ;
+    }
+  
+    .card-list .card-link:hover .card-button{
+        color: #fff;
+        background: #5372F0;
+    }
+  
+    .card-wrapper .swiper-pagination-bullet{
+      height:13px;
+      width:13px;
+      opacity:0.5;
+      background: #5372F0;
+    }
+  
+    .card-wrapper .swiper-pagination-bullet-active{
+      opacity:1 ;
+  
+    }
+  
+    .card-wrapper .swiper-slide-button{
+      color:#5372F0;
+      margin-top:-35px;
+    }
+  
+  
+    @media  screen and (max-width: 768px) {
+      .card-wrapper{
+        margin:0 10px 25px;
+      }
+  
+      .card-wrapper .swiper-slide-button{
+        display:none;
+      }
+  
+  
+  
+    }
+
+
+    .custom-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .custom-table th, .custom-table td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+    }
+    
+    .custom-table th {
+        background-color: #4CAF50;
+        color: white;
+        font-size: 18px;
+    }
+    
+    .custom-table td {
+        font-size: 16px;
+    }
+    
+    .custom-table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+  
+    
+  
